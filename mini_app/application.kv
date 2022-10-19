@@ -1,0 +1,17 @@
+GridlayoutWidgets:
+
+<GridlayoutWidgets>:
+    # orientation: "horizontal"
+    cols: 4
+    # rows:3
+    Button:
+        text: "Click"
+        on_press: root.on_click()
+    Label:
+        text: root.change_text_when_i_click
+
+    Button:
+        text: "Counter"
+        on_press: root.count()
+    Label:
+        text: root.counter
